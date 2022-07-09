@@ -1,23 +1,26 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.container {
-background-color: #1f2937;
 
-color: white;
+.container {
+    background-color: #1f2937;
+
+    color: white;
 }
+
 header li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
-    
+
 }
+
 header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 50px;
-    
+
 }
 
 #nav-title {
@@ -34,62 +37,71 @@ header a:hover {
     color: #b2dfdb;
 }
 
-.content{
+.content {
 
-	width:100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding-top: 7vh;
-	
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7vh;
+
 }
-.main-text{
-    
+
+.main-text {
+
     font-family: 'Roboto', sans-serif;
-	width:500px;
+    width: 500px;
     align-items: center;
     margin-bottom: 15px;
-    
-}
-.main-text h1{
 
-    font-size: 48px ;
+}
+
+.main-text h1 {
+
+    font-size: 48px;
     font-weight: bold;
-	color:#F9FAF8;
-	margin:10px 10px 10px 0px;
-	line-height: 60px;
+    color: #F9FAF8;
+    margin: 10px 10px 10px 0px;
+    line-height: 60px;
 }
-.main-text p{
-	color:white;
+
+.main-text p {
+    color: white;
     font-size: 18px;
-    color: #E5E7EB;;
+    color: #E5E7EB;
+    ;
 }
-.signup-btn{
-	width:190px;
-	height: 44px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color:#FFFFFF;
-	background-color: #3882f6;
-	border-radius: 10px;
+
+.signup-btn {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #3882f6;
+    border-radius: 10px;
     border-color: whitesmoke;
 }
-.signup-btn:hover{
-	background-color: darkblue;
-	transition: all ease 0.2s;
-   
+
+.signup-btn:hover {
+    background-color: darkblue;
+    transition: all ease 0.2s;
+
 }
-.image img{
-	width:100%;
-	height: 100%;
-	object-fit:contain;
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
-.image{
-	width:100px;
-	height: 100px;
-    
+
+.image {
+    width: 100px;
+    height: 100px;
+
 }
+
 #sub-content {
     font-family: 'Roboto', sans-serif;
     align-items: center;
@@ -97,15 +109,16 @@ header a:hover {
     text-align: center;
     padding-top: 7vh;
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .flex-container > div {
-  
-   
+}
+
+.flex-container>div {
+
+
     background-color: white;
     border: 2px solid #3882f6;
     border-radius: 10px;
@@ -115,28 +128,32 @@ header a:hover {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
-  .flex-container > div ::after {
+}
+
+.flex-container>div ::after {
     color: gray;
     content: " some text or image";
     font-weight: lighter;
     font-size: 15px;
     position: relative;
     top: 100px;
-  }
-  #bottom-content {
+}
+
+#bottom-content {
     background-color: #E5E7EB;
 }
+
 .bottom-container {
-   width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 18vh;
-	
 
- }
- .bottom-container p {
+
+}
+
+.bottom-container p {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
@@ -144,9 +161,10 @@ header a:hover {
     padding-top: 90px;
     margin: 0 450px 0px;
     line-height: 44px;
-   
- }
-   .bottom-container ::after {
+
+}
+
+.bottom-container ::after {
     content: "-Thor";
     font-style: normal;
     color: #1f2937;
@@ -154,8 +172,9 @@ header a:hover {
     position: relative;
     left: 50px;
     top: 64px;
-   }
-   .footer-container {
+}
+
+.footer-container {
     display: flex;
     background-color: rgb(56, 130, 246);
     color: rgb(229, 231, 235);
@@ -166,21 +185,24 @@ header a:hover {
     /* height: 10%; */
     margin: 50px;
     padding-bottom: 10vh;
-  
-   }
+
+}
+
 .footer-container .signup-btn {
     position: absolute;
     left: 70%;
     bottom: 24%;
     justify-content: center;
     display: flex;
-      
+
 }
+
 .footer-container h1 {
     position: absolute;
     left: 13%;
     display: flex;
-} 
+}
+
 .footer-container p {
     display: flex;
     position: absolute;
@@ -195,6 +217,7 @@ header a:hover {
     width: 100%;
     padding-bottom: 5vh;
 }
+
 .footerEnd-container p {
     padding-top: 3vh;
 }
